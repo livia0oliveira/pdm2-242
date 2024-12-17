@@ -1,0 +1,12 @@
+name: meu_projeto_sqlite3
+description: Um projeto de exemplo usando sqlite3 para gerenciar estudantes.
+version: 1.0.0
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'  # Ajuste conforme a versão do Dart que você está usando
+
+dependencies:
+  sqlite3: ^2.1.0  # A versão do pacote sqlite3 que você está usando
+
+dev_dependencies:
+  lints: ^2.0.0  # Para linting do código
