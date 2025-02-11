@@ -89,7 +89,7 @@ class _CartTotal extends StatelessWidget {
                     .join(' + ');
 
                 String totalMessage =
-                    '$itemDetails = Total \$${cart.totalPrice} - José Maia';
+                    '$itemDetails = Total \$${cart.totalPrice}';
 
                 // Show SnackBar with the custom message
                 ScaffoldMessenger.of(context).showSnackBar(
